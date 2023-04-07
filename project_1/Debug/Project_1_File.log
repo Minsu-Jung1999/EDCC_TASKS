@@ -1,0 +1,3 @@
+﻿  MadLibs.cpp
+C:\Users\alstn\source\repos\Project_1_File\Project_1_File\MadLibs.cpp(164,20): warning C4018: '<': signed/unsigned mismatch
+  Project_1_File.vcxproj -> C:\Users\alstn\source\repos\Project_1_File\Debug\Project_1_File.exe
