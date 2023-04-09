@@ -1,0 +1,9 @@
+﻿  C++ 132.cpp
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(30,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(108,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(96,10): warning C4101: 'cread': unreferenced local variable
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(190,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(207,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(215,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(224,23): warning C4018: '<': signed/unsigned mismatch
+  C++ 132.vcxproj -> C:\Users\alstn\source\repos\C++ 132\Debug\C++ 132.exe
