@@ -1,0 +1,11 @@
+string lettersOnly(string s)
+{
+    if (s.size() == 0)
+        return "";
+    else if (!isalpha(s[0]))
+        return lettersOnly(s.substr(1));
+    else
+        return s[0] + lettersOnly(s.substr(1));
+}
+
+learning how to use isalpha() to solve letersonly problems.
