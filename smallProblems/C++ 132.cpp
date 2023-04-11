@@ -230,16 +230,45 @@ double mean(vector<double> v)
     //cout << "v.size() = " << v.size() << endl;
     return nums / v.size();
 }
+string lettersOnly(string s)
+{
+    if (s.size() == 0)
+        return "";
+    else if (!isalpha(s[0]))
+        return lettersOnly(s.substr(1));
+    else
+        return s[0] + lettersOnly(s.substr(1));
+}
 
+string toLowercase(string s)
+{
+    string temp_s;
+    for (size_t i = 0; i < s.size(); i++)
+    {
+        temp_s = tolower(s[i]);
+        s.replace(i, 1, temp_s);
+    }
+    return s;
+}
+
+string starString(int num)
+{
+    if (num < 0) return "";
+    string stars;
+    int iterator=1;
+    for (size_t i = 0; i < num; i++)
+    {
+        iterator *= 2;
+    }
+    for (int i = 0; i < iterator; i++)
+    {
+        stars += "*";
+    }
+    return stars;
+}
 int main()
 {
-    vector <double> a;
-    a.push_back(2.0);
-    a.push_back(4.5);
-    a.push_back(6.5);
-    a.push_back(1.0);
-    cout<<mean(a);
-
+    cout << starString(8);
 }
 
 
