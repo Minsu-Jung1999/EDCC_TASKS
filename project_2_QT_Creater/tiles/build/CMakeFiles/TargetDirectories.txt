@@ -1,0 +1,4 @@
+C:/Users/allison/Documents/132/winter22/hw2/tiles/build/CMakeFiles/StarterProject.dir
+C:/Users/allison/Documents/132/winter22/hw2/tiles/build/CMakeFiles/edit_cache.dir
+C:/Users/allison/Documents/132/winter22/hw2/tiles/build/CMakeFiles/rebuild_cache.dir
+C:/Users/allison/Documents/132/winter22/hw2/tiles/build/CMakeFiles/StarterProject_autogen.dir

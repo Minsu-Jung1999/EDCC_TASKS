@@ -1,0 +1,277 @@
+[
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\StarterProject_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\build\\StarterProject_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build/StarterProject_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\console.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\console.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/console.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gbrowserpane.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gbrowserpane.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gbrowserpane.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gbutton.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gbutton.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gbutton.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gcanvas.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gcanvas.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gcanvas.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gcheckbox.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gcheckbox.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gcheckbox.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gchooser.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gchooser.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gchooser.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gclipboard.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gclipboard.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gclipboard.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gcolor.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gcolor.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gcolor.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gcolorchooser.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gcolorchooser.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gcolorchooser.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gconsolewindow.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gconsolewindow.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gconsolewindow.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gcontainer.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gcontainer.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gcontainer.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gdiffgui.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gdiffgui.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gdiffgui.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gdiffimage.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gdiffimage.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gdiffimage.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gdownloader.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gdownloader.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gdownloader.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gdrawingsurface.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gdrawingsurface.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gdrawingsurface.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gevent.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gevent.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gevent.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\geventqueue.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\geventqueue.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/geventqueue.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gexceptions.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gexceptions.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gexceptions.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gfilechooser.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gfilechooser.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gfilechooser.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gfont.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gfont.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gfont.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gfontchooser.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gfontchooser.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gfontchooser.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\ginit.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\ginit.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/ginit.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\ginteractor.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\ginteractor.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/ginteractor.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\glabel.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\glabel.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/glabel.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\glayout.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\glayout.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/glayout.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gmath.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gmath.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gmath.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gobjects.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gobjects.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gobjects.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gobservable.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gobservable.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gobservable.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\goptionpane.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\goptionpane.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/goptionpane.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gradiobutton.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gradiobutton.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gradiobutton.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gscrollbar.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gscrollbar.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gscrollbar.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gscrollpane.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gscrollpane.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gscrollpane.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gslider.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gslider.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gslider.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gsound.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gsound.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gsound.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gspacer.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gspacer.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gspacer.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gtable.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gtable.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gtable.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gtextarea.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gtextarea.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gtextarea.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gtextfield.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gtextfield.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gtextfield.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gthread.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gthread.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gthread.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gtimer.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gtimer.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gtimer.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gtypes.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gtypes.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gtypes.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gversion.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gversion.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gversion.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\gwindow.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\gwindow.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/gwindow.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\librarymain.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\librarymain.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/librarymain.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\mainwrapper.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\mainwrapper.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/mainwrapper.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\privatediff.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\privatediff.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/privatediff.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\privatefilelib.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\privatefilelib.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/privatefilelib.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\privateregexpr.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\privateregexpr.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/privateregexpr.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\privatestrlib.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\privatestrlib.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/privatestrlib.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\qtgui.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\qtgui.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/qtgui.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\lib\\require.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\lib\\require.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/lib/require.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\src\\Tile.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\src\\Tile.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/src/Tile.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\src\\TileMain.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\src\\TileMain.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/src/TileMain.cpp"
+},
+{
+  "directory": "C:/Users/allison/Documents/132/winter22/hw2/tiles/build",
+  "command": "C:\\PROGRA~1\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/StarterProject.dir/includes_CXX.rsp -g -g -Wall -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -Dmain=qMain -DqMain=studentMain -std=gnu++11 -o CMakeFiles\\StarterProject.dir\\src\\TileManager.cpp.obj -c C:\\Users\\allison\\Documents\\132\\winter22\\hw2\\tiles\\src\\TileManager.cpp",
+  "file": "C:/Users/allison/Documents/132/winter22/hw2/tiles/src/TileManager.cpp"
+}
+]
