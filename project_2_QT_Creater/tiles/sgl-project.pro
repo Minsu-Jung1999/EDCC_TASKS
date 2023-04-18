@@ -53,8 +53,8 @@ DESTDIR     =   $$PWD
 # student writes ordinary main() function, but it must be called within a
 # wrapper main() that handles library setup/teardown. Rename student's
 # to distinguish between the two main() functions and avoid symbol clash
-#DEFINES     +=  main=qMain
-#DEFINES     +=  qMain=studentMain
+DEFINES     +=  main=qMain
+DEFINES     +=  Main=main
 
 DEFINES     += SGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1
 

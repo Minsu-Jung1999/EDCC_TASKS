@@ -13,7 +13,7 @@ EQ            = =
 
 CC            = @echo compiling $< && gcc
 CXX           = @echo compiling $< && g++
-DEFINES       = -DUNICODE -D_UNICODE -DWIN32 -DMINGW_HAS_SECURE_API=1 -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -DQT_QML_DEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_NEEDS_QMAIN
+DEFINES       = -DUNICODE -D_UNICODE -DWIN32 -DMINGW_HAS_SECURE_API=1 -Dmain=qMain -DMain=main -DSGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1 -DQT_QML_DEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_NEEDS_QMAIN
 CFLAGS        = -fno-keep-inline-dllexport -O2 -Wall -Wextra -Wextra $(DEFINES)
 CXXFLAGS      = -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -Wextra -Wextra -Werror=return-type -Werror=uninitialized -Wunused-parameter -Wmissing-field-initializers -Wno-old-style-cast -Wno-sign-compare -Wno-sign-conversion -Wlogical-op -fexceptions -mthreads $(DEFINES)
 INCPATH       = -I..\tiles -I. -I..\tiles\lib -I..\..\..\5.15.2\mingw81_64\include -I..\..\..\5.15.2\mingw81_64\include\QtWidgets -I..\..\..\5.15.2\mingw81_64\include\QtMultimedia -I..\..\..\5.15.2\mingw81_64\include\QtGui -I..\..\..\5.15.2\mingw81_64\include\QtANGLE -I..\..\..\5.15.2\mingw81_64\include\QtNetwork -I..\..\..\5.15.2\mingw81_64\include\QtCore -Irelease -I/include -I..\..\..\5.15.2\mingw81_64\mkspecs\win32-g++ 

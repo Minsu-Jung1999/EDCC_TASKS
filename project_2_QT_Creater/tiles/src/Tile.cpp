@@ -8,10 +8,8 @@ Tile::Tile(int x, int y, int width, int height, string color) : x(x),y(y), width
 
 void Tile::print()
 {
-    cout<<"x = "<<x<<endl<<"y = "<<y<<endl<<"width = "<<width<<endl<<"height = "<<height<<endl<<"color = "<<color<<endl;
+    cout<<"x = "<<x<<", y = "<<y<<", width = "<<width<<", height = "<<height<<", color = "<<color<<endl;
 }
-
-
 int Tile::getX()
 {
     return x;
@@ -45,5 +43,6 @@ bool Tile::contains(int x, int y)
 }
 void Tile::draw(GWindow& window)
 {
-    window.drawRect(x,y,width,height);
+    window.setFillColor(color);
+    window.fillRect(x,y,width,height);
 }

@@ -5,30 +5,39 @@ using namespace std;
 using namespace sgl;
 TileManager::TileManager()
 {
-    cout<<"TileManager() called"<<endl;
 }
 
 void TileManager::addBottom(Tile& rect)
 {
-
+    tiles.insert(tiles.begin(),rect);
 
 }
 void TileManager::addTop(Tile& rect)
 {
-    cout<<"addTop()-> rect.y"<<rect.getY()<<endl;
+    tiles.push_back(rect);
 }
 void TileManager::drawAll(GWindow& window)
 {
-    cout<<"drawAll()"<<endl;
-
+    for (auto& tile : tiles) {
+        tile.draw(window);
+    }
 }
+// clear all of the rectangles
 void TileManager::clear()
 {
-    cout<<"clear()"<<endl;
+    tiles.clear();
 }
 void TileManager::highlight(int x, int y, GWindow& window)
 {
-    cout<<"highlight()"<<endl;
+    window.setColor("Yellow");
+    window.setLineWidth(10);
+    for(auto& tile: tiles)
+    {
+        if(tile.contains(x,y))
+        {
+            window.drawRect(tile.getX()-5,tile.getY()-5,tile.getWidth()+5,tile.getHeight()+5);
+        }
+    }
 }
 void TileManager::raise(int x, int y)
 {
