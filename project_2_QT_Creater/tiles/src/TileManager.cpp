@@ -5,6 +5,7 @@ using namespace std;
 using namespace sgl;
 TileManager::TileManager()
 {
+
 }
 
 void TileManager::addBottom(Tile& rect)
@@ -29,29 +30,63 @@ void TileManager::clear()
 }
 void TileManager::highlight(int x, int y, GWindow& window)
 {
+    int space =10;
     window.setColor("Yellow");
-    window.setLineWidth(10);
-    for(auto& tile: tiles)
+    window.setLineWidth(space);
+    for(int i=tiles.size();i>=0;i--)
     {
-        if(tile.contains(x,y))
+        if(tiles[i].contains(x,y))
         {
-            window.drawRect(tile.getX()-5,tile.getY()-5,tile.getWidth()+5,tile.getHeight()+5);
+            window.drawRect(tiles[i].getX()-(space/2),tiles[i].getY()-(space/2),tiles[i].getWidth()+space,tiles[i].getHeight()+space);
+            break; // stop when it find a mosttop tile.
         }
     }
+
 }
 void TileManager::raise(int x, int y)
 {
-    cout<<"raise()"<<endl;
+    for(int i=tiles.size();i>=0;i--)
+    {
+        if(tiles[i].contains(x,y))
+        {
+            Tile temp = tiles[i];
+            tiles.erase(tiles.begin()+i);
+            tiles.push_back(temp);
+            break; // stop when it find a mosttop tile.
+        }
+    }
 }
 void TileManager::lower(int x, int y)
 {
-    cout<<"lower()"<<endl;
+    for(int i=tiles.size();i>=0;i--)
+    {
+        if(tiles[i].contains(x,y))
+        {
+            Tile temp = tiles[i];
+            tiles.erase(tiles.begin()+i);
+            tiles.insert(tiles.begin(),temp);
+            break; // stop when it find a mosttop tile.
+        }
+    }
 }
 void TileManager::remove(int x, int y)
 {
-    cout<<"remove()"<<endl;
+    for(int i=tiles.size();i>=0;i--)
+    {
+        if(tiles[i].contains(x,y))
+        {
+            tiles.erase(tiles.begin()+i);
+            break; // stop when it find a mosttop tile.
+        }
+    }
 }
 void TileManager::removeAll(int x, int y)
 {
-    cout<<"removeAll()"<<endl;
+    for(int i=tiles.size();i>=0;i--)
+    {
+        if(tiles[i].contains(x,y))
+        {
+            tiles.erase(tiles.begin()+i);
+        }
+    }
 }

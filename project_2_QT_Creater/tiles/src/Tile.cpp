@@ -43,6 +43,9 @@ bool Tile::contains(int x, int y)
 }
 void Tile::draw(GWindow& window)
 {
+    window.setColor("Black");
+    window.setLineWidth(1);
     window.setFillColor(color);
     window.fillRect(x,y,width,height);
+
 }
