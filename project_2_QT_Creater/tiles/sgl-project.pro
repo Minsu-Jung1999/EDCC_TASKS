@@ -66,8 +66,10 @@ DEFINES     += SGL_GRAPHICAL_CONSOLE_NO_TOOLBAR=1
 # Qt looks for first 'SOURCES *=' line and lists user-added .cpp/h files there.
 # Afterward we glob-add files to SOURCES ourselves. Operator *= will unique
 # entries, so no worries about duplicates
-SOURCES         *=  ""
-HEADERS         *=  ""
+SOURCES         *=  "" \
+    src/lib132.cpp
+HEADERS         *=  "" \
+    src/lib132.h
 
 # Gather any .cpp or .h files within the project folder (student/starter code).
 # Second argument true makes search recursive
