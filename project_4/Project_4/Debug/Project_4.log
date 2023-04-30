@@ -1,5 +1,5 @@
 ﻿  AnagramSolver.cpp
-  anagramMain.cpp
-C:\Users\alstn\Downloads\anagrams\anagrams\Project_4\Project_4\anagramMain.cpp(59,26): warning C4018: '<': signed/unsigned mismatch
-  Generating Code...
+C:\Users\alstn\Downloads\anagrams\anagrams\Project_4\Project_4\AnagramSolver.cpp(54,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\Downloads\anagrams\anagrams\Project_4\Project_4\AnagramSolver.cpp(57,14): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\Downloads\anagrams\anagrams\Project_4\Project_4\AnagramSolver.cpp(63,17): warning C4018: '>=': signed/unsigned mismatch
   Project_4.vcxproj -> C:\Users\alstn\Downloads\anagrams\anagrams\Project_4\Debug\Project_4.exe

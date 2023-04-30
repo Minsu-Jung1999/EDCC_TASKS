@@ -3,8 +3,7 @@
 
 #include <iostream>
 #include <vector>
-using namespace std;
-
+#include "LetterInventory.h"
 class Anagrams
 {
 private:
@@ -18,7 +17,7 @@ public:
 	void print(string& phrase, int max);
 	
 	// additional funcitons
-	bool printHelper(LetterInventory& letters);
+	bool printHelper(LetterInventory& letters, int index, vector <string>& results);
 	bool containVowels(LetterInventory& phrase);
 };
 

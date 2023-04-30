@@ -7,10 +7,8 @@
 
 using namespace std;
 
-Anagrams::Anagrams(vector<string>& dictionary)
+Anagrams::Anagrams(vector<string>& dictionary):dictionary(dictionary)
 {
-	
-	this->dictionary = dictionary;
 }
 
 vector<string> Anagrams::getWords(string& phrase)
@@ -34,13 +32,9 @@ vector<string> Anagrams::getWords(string& phrase)
 void Anagrams::print(string& phrase)
 {
 	LetterInventory letter(phrase);
-	int index = 0;
-	for (size_t i = 0; i < wordsInPhrase.size(); i++)
-	{
-		if (printHelper(letter, i))
-		{
-		}
-	}
+	vector <string> outputresults;
+	printHelper(letter, 0, outputresults);
+
 }
 
 void Anagrams::print(string& phrase, int max)
@@ -51,19 +45,42 @@ void Anagrams::print(string& phrase, int max)
 		print(phrase);
 }
 
-bool Anagrams::printHelper(LetterInventory& letters,int index)
+bool Anagrams::printHelper(LetterInventory& letters,int index, vector <string>& results)
 {
-	if (containVowels(letters))
+	if (!containVowels(letters))
+		return false;
+	if (letters.isEmpty()) // success
 	{
-		LetterInventory chosen(wordsInPhrase[index]);
-		if (letters.contains(chosen))
+		cout << '[';
+		for (int i = 0; i < results.size(); i++)
 		{
-			LetterInventory leftletters = letters - chosen;
-			printHelper(leftletters, index + 1);
+			cout << results[i];
+			if (i + 1 < results.size())
+				cout << ", ";
+		}
+		cout << ']' << endl;
+		return true;
+	}
+	else if (index >= wordsInPhrase.size())
+	{
+		return false;
+	}
+	else if (letters.contains(wordsInPhrase[index]))
+	{
+		results.push_back(wordsInPhrase[index]);
+		LetterInventory chosen(wordsInPhrase[index]);
+		LetterInventory left = letters - chosen;
+		if (printHelper(left, index + 1, results))
+		{
+		}
+		else
+		{
+			results.pop_back();
+			return printHelper(letters, index + 1, results);
 		}
 	}
-	else
-		return false;
+	return printHelper(letters, index + 1, results);
+
 }
 
 bool Anagrams::containVowels(LetterInventory& letters)

@@ -10,6 +10,7 @@ bogus
 bough
 bow
 brew
+briar
 brow
 brush
 bug
