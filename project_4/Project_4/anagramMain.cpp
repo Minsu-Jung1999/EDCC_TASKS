@@ -66,7 +66,6 @@ ostream& operator<<(ostream& out, vector<string> v) {
 
 int main() {
     cout << "Welcome to the CS 132 anagram solver." << endl;
-    cout << endl;
 
     vector<string> dictionary = getDictionary();
 
@@ -89,7 +88,6 @@ int main() {
 
             cout << endl; 
             int max = getMax();
-            cout << endl;
             
             solver.print(phrase, max);
         }

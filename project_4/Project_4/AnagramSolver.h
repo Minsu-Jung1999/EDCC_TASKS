@@ -17,7 +17,7 @@ public:
 	void print(string& phrase, int max);
 	
 	// additional funcitons
-	bool printHelper(LetterInventory& letters, int index, vector <string>& results);
+	void printHelper(LetterInventory& letters, int index, vector <string> results, int maxval);
 	bool containVowels(LetterInventory& phrase);
 };
 

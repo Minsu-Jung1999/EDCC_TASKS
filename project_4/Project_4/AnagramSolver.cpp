@@ -33,8 +33,7 @@ void Anagrams::print(string& phrase)
 {
 	LetterInventory letter(phrase);
 	vector <string> outputresults;
-	printHelper(letter, 0, outputresults);
-
+	printHelper(letter, 0, outputresults,0);
 }
 
 void Anagrams::print(string& phrase, int max)
@@ -43,43 +42,60 @@ void Anagrams::print(string& phrase, int max)
 		return;
 	if (max == 0)
 		print(phrase);
+	else
+	{
+		LetterInventory letter(phrase);
+		vector <string> outputresults;
+		printHelper(letter, 0, outputresults, max);
+	}
+	
 }
 
-bool Anagrams::printHelper(LetterInventory& letters,int index, vector <string>& results)
+void Anagrams::printHelper(LetterInventory& letters,int index, vector <string> results,int maxval)
 {
-	if (!containVowels(letters))
-		return false;
-	if (letters.isEmpty()) // success
+	
+	if (letters.isEmpty())
 	{
-		cout << '[';
-		for (int i = 0; i < results.size(); i++)
+		if (maxval != 0 && results.size()!= maxval)
 		{
-			cout << results[i];
-			if (i + 1 < results.size())
-				cout << ", ";
-		}
-		cout << ']' << endl;
-		return true;
-	}
-	else if (index >= wordsInPhrase.size())
-	{
-		return false;
-	}
-	else if (letters.contains(wordsInPhrase[index]))
-	{
-		results.push_back(wordsInPhrase[index]);
-		LetterInventory chosen(wordsInPhrase[index]);
-		LetterInventory left = letters - chosen;
-		if (printHelper(left, index + 1, results))
-		{
+			return;
 		}
 		else
 		{
-			results.pop_back();
-			return printHelper(letters, index + 1, results);
+			cout << "[";
+			for (size_t i = 0; i < results.size(); i++)
+			{
+				cout << results[i];
+				if (i + 1 < results.size())
+					cout << ", ";
+			}
+
+			cout << "]" << endl;
+			return;
+
 		}
 	}
-	return printHelper(letters, index + 1, results);
+	if (index + 1 > wordsInPhrase.size())
+	{
+		return;
+	}
+	if (letters.contains(wordsInPhrase[index])) // abash meet bar
+	{
+		results.push_back(wordsInPhrase[index]);
+		LetterInventory chosen(wordsInPhrase[index]);
+		LetterInventory leftletters = letters - chosen;
+		printHelper(leftletters, 0, results,maxval);
+		results.pop_back();
+		printHelper(letters, index + 1, results,maxval);
+		//cout << " Fisnish! " << endl;
+		//cout << " current words in phrase " << wordsInPhrase[index] << endl;
+		//cout << " current letters : " << letters << endl;
+		//cout << " current index : " << index << endl;
+	}
+	else
+	{
+		printHelper(letters, index + 1, results,maxval);
+	}
 
 }
 
