@@ -355,6 +355,63 @@ ostream& operator<<(ostream& out, MovieRating& other)
     return out;
 }
 
+int pow(int base, int exp)
+{
+    cout << "Recursion" << endl;
+    if (exp == 0)
+    {
+        return 1;
+    }
+    else
+    {
+        if (exp % 2 == 0)
+        {
+            exp /= 2;
+            base *= base;
+        }
+        return base * pow(base, exp-1);
+    }
+}
+
+void printRange(int x, int y)
+{
+    if (x > y)
+    {
+        throw string("x is bigger than y");
+    }
+    int range = y - x;
+    helper(x, range, 0);
+    /*for (int i = 0; i <= range; i++)
+    {
+        cout << x++;
+        if (i+1 > range)return;
+        if ((range%2==1) && (i == range / 2))
+            cout << " -- ";
+        else if (i < range / 2)
+            cout << " > ";
+        else
+            cout << " < ";
+    }*/
+}
+void helper(int x,int range, int iterlater)
+{
+    cout << x;
+    if (iterlater <= range)
+    {
+        if (iterlater + 1 > range)return;
+        if ((range % 2 == 1) && (iterlater == range / 2))
+            cout << " -- ";
+        else if (iterlater < range / 2)
+            cout << " > ";
+        else
+            cout << " < ";
+        helper(x + 1, range, iterlater + 1);
+    }
+
+}
+
+
+
 
 bool MovieRating::operator==(MovieRating otherMovie)
 {
@@ -365,4 +422,117 @@ bool MovieRating::operator==(MovieRating otherMovie)
 }
 
 #pragma endregion
+
+#pragma region ItemOrder
+ItemOrder::ItemOrder(string itemnum, int quantity, int pricePerItem) :
+    itemNumber(itemnum), quantity(quantity), pricePerItem(pricePerItem) {}
+
+string ItemOrder::getItem()
+{
+    return itemNumber;
+}
+
+double ItemOrder::getPrice()
+{
+    return quantity * pricePerItem/100;
+}
+
+int ItemOrder::getQuantity()
+{
+    return quantity;
+}
+
+ostream& operator<<(ostream& out, ItemOrder& other)
+{
+    out << "item #" << other.getItem() <<": " << other.quantity << " for $" << other.getPrice();
+    return out;
+}
+
+
+bool ItemOrder::operator<(ItemOrder other)
+{
+    if (getPrice() < other.getPrice())
+        return true;
+    if (getPrice() == other.getPrice())
+    {
+
+        if (getQuantity() < other.getQuantity()) return true;
+        if (getQuantity() == other.getQuantity())
+        {
+            string otherName = other.getItem();
+            for (size_t i = 0; i < otherName.size(); i++)
+            {
+                if (otherName[i] > itemNumber[i])
+                    return true;
+                else
+                    return false;
+            }
+        }
+    }
+    return false;
+}
+#pragma endregion
+
+void printPath(const std::vector<int>& path) {
+    if (path.empty()) {
+        return;
+    }
+    cout << path.front();
+    if(path.size()>1)
+        cout << ", ";
+    printPath(std::vector<int>(path.begin() + 1, path.end()));
+}
+void waysToClimb(int n) {
+    std::vector<int> path;
+    if (n >= 0)
+        throw 0;
+    waysToClimbHelper(n, path);
+}
+void waysToClimbHelper(int n, std::vector<int>& path) {
+    if (n == 0)
+    {
+        cout << "{";
+        printPath(path);
+        cout << "}";
+        cout << endl;
+    }
+    if (n >= 1)
+    {
+        path.push_back(1);
+        waysToClimbHelper(n - 1, path);
+        path.pop_back();
+    }
+    if (n >= 2)
+    {
+        path.push_back(2);
+        waysToClimbHelper(n - 2, path);
+        path.pop_back();
+    }
+}
+
+int wordCount(string words)
+{
+    if (words.empty())
+        return 0;
+    bool continuousspaces = true;
+    int count = 0;
+    for (int i = 0; i < words.size(); i++)
+    {
+        if (words[i] == ' ')
+        {
+            continuousspaces = true;
+        }
+        else
+        {
+            if (continuousspaces)
+            {
+                continuousspaces = false;
+                count++;
+            }
+
+        }
+    }
+
+    return count;
+}
 

@@ -112,9 +112,31 @@ public:
     bool operator== (MovieRating otherMovie);
 };
 
+int pow(int base, int exp);
 
+void printRange(int x, int y);
+void helper(int x, int range, int iterlater);
 
+class ItemOrder
+{
+private:
+    string itemNumber;
+    int quantity;
+    int pricePerItem;
+public:
+    ItemOrder(string itemnum, int quantity, int pricePerItem);
+    string getItem();
+    double getPrice();
+    int getQuantity();
+    friend ostream& operator <<(ostream& out,  ItemOrder& other);
+    bool operator < (ItemOrder other);
+};
 
+void waysToClimb(int n);
+
+void waysToClimbHelper(int n, std::vector<int>& path);
+
+int wordCount(string words);
 
 
 
