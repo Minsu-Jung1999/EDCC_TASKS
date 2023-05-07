@@ -138,9 +138,35 @@ void waysToClimbHelper(int n, std::vector<int>& path);
 
 int wordCount(string words);
 
+void printBinary(int num);
 
+#pragma region Point2_Class
 
+class Point2
+{
+private:
 
+    int x;
+    int x_origin;
+    int y;
+    int y_origin;
+
+public:
+
+    int getX();//	returns the x coordinate
+    int getY();	//returns the y coordinate
+    void setX(int newX); //	sets the x coordinate to the parameter value
+    void setY(int newY);//	sets the y coordinate to the parameter value
+    void translate(int dx, int dy); //	changes a Point's location by a given dx, dy amount.
+    double distanceFromOrigin();
+
+};
+
+#pragma endregion
+
+void vectorMystery(std::vector<int>& v);
+int merge(int n);
+void removeAll(string first, string second);
 
 
 

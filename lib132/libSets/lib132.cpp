@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <cmath>
 using namespace std;
 
 string replaceAll(const std::string& s, char c1, char c2)
@@ -484,7 +485,7 @@ void printPath(const std::vector<int>& path) {
 }
 void waysToClimb(int n) {
     std::vector<int> path;
-    if (n >= 0)
+    if (n <= 0)
         throw 0;
     waysToClimbHelper(n, path);
 }
@@ -535,4 +536,115 @@ int wordCount(string words)
 
     return count;
 }
+
+void printBinary(int num)
+{
+    if (num < 0)
+    {
+        cout << "-";
+        num *= -1;
+    }
+    if (num <= 1)
+    {
+        cout << num;
+    }
+    else
+    {
+        printBinary(num / 2);
+        cout << num % 2;
+    }
+}
+
+#pragma region Point_2_
+
+int Point2::getX()
+{
+    return x;
+}
+
+int Point2::getY()
+{
+    return y;
+}
+
+void Point2::setX(int newX)
+{
+    x = newX;
+    x_origin = x;
+}
+
+void Point2::setY(int newY)
+{
+    y = newY;
+    y_origin = y;
+
+}
+
+void Point2::translate(int dx, int dy)
+{
+    x += dx;
+    y += dy;
+}
+
+double Point2::distanceFromOrigin()
+{
+    int square_x = pow((x_origin - x), 2);
+    cout << "square_x = " << square_x << endl;
+    int square_y = pow((y_origin - y), 2);
+    cout << "square_y = " << square_y << endl;
+    double length = std::sqrt(square_x + square_y);
+    return length;
+}
+
+#pragma endregion
+
+#pragma region Midterm
+void vectorMystery(vector<int>& v) {
+    for (int i = 1; i < v.size(); i += 2) {
+        if (v[i - 1] >= v[i]) {
+            v.erase(v.begin() + i, v.begin() + i+1  );
+            cout << "erased" << endl;
+            for (int i = 0; i < v.size(); i++)
+            {
+                cout << v[i] << " ";
+            }
+            v.insert(v.begin(), 0);
+            cout << endl;
+        }
+    }
+}
+void removeAll(string first, string second)
+{
+    for (int i = 0; i < first.size(); i++)
+    {
+        for (int j = 0; j < second.size(); j++)
+        {
+            if (first[i] == second[j])
+            {
+                first.erase(first.begin() + i, first.begin() + i + 1);
+            }
+        }
+    }
+    cout << first;
+}
+int merge(int n)
+{
+    if (n < 0)
+    {
+        return -merge(-n);
+    }
+    else if (n < 10)
+    {
+        return n;
+    }
+    else
+    {
+        // 1123
+        int lastdigit = n % 10; // lastdigit = 3
+        int seconddigittolast = (n % 100) / 10; // seconddigittolast = 2
+        return 10 * merge(n / 100) + merge(lastdigit + seconddigittolast);  // return 10 * (11) + merge(3+2)
+    }
+}
+#pragma endregion
+
 

@@ -6,6 +6,6 @@ using namespace std;
 
 int main()
 {
-	waysToClimb(3);
+	cout<<merge(1123);
 }
 

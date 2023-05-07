@@ -1,4 +1,2 @@
-﻿  lib132.cpp
-C:\Users\alstn\source\repos\libSets\libSets\lib132.cpp(52,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\alstn\source\repos\libSets\libSets\lib132.cpp(88,20): warning C4018: '<': signed/unsigned mismatch
+﻿  libSets.cpp
   libSets.vcxproj -> C:\Users\alstn\source\repos\libSets\Debug\libSets.exe
