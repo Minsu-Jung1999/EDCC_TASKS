@@ -1,0 +1,49 @@
+﻿  Employee.cpp
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(8,11): error C2061: syntax error: identifier 'string'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(10,17): error C3646: 'name': unknown override specifier
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(10,22): error C2059: syntax error: ')'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(10,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(13,17): error C3646: 'vacationForm': unknown override specifier
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(13,30): error C2059: syntax error: ')'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(13,31): error C2238: unexpected token(s) preceding ';'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(16,9): error C3646: 'myname': unknown override specifier
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(16,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\alstn\source\repos\Project1\Project1\Employee.cpp(8,1): error C2511: 'Employee::Employee(std::string,int)': overloaded member function not found in 'Employee'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(6): message : see declaration of 'Employee'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.cpp(9,2): error C2065: 'myname': undeclared identifier
+C:\Users\alstn\source\repos\Project1\Project1\Employee.cpp(10,2): error C2597: illegal reference to non-static member 'Employee::myyears'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(17): message : see declaration of 'Employee::myyears'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.cpp(16,18): error C2039: 'name': is not a member of 'Employee'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(6): message : see declaration of 'Employee'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.cpp(16,30): error C2270: 'name': modifiers not allowed on nonmember functions
+C:\Users\alstn\source\repos\Project1\Project1\Employee.cpp(17,9): error C2065: 'myname': undeclared identifier
+C:\Users\alstn\source\repos\Project1\Project1\Employee.cpp(25,18): error C2039: 'vacationForm': is not a member of 'Employee'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(6): message : see declaration of 'Employee'
+  Lawyer.cpp
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(8,11): error C2061: syntax error: identifier 'string'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(10,17): error C3646: 'name': unknown override specifier
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(10,22): error C2059: syntax error: ')'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(10,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(13,17): error C3646: 'vacationForm': unknown override specifier
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(13,30): error C2059: syntax error: ')'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(13,31): error C2238: unexpected token(s) preceding ';'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(16,9): error C3646: 'myname': unknown override specifier
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(16,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\alstn\source\repos\Project1\Project1\Lawyer.h(12,17): error C3668: 'Lawyer::name': method with override specifier 'override' did not override any base class methods
+C:\Users\alstn\source\repos\Project1\Project1\Lawyer.cpp(6,81): error C2661: 'Employee::Employee': no overloaded function takes 2 arguments
+C:\Users\alstn\source\repos\Project1\Project1\Lawyer.cpp(12,14): error C2039: 'sue': is not a member of 'Lawyer'
+C:\Users\alstn\source\repos\Project1\Project1\Lawyer.h(7): message : see declaration of 'Lawyer'
+C:\Users\alstn\source\repos\Project1\Project1\Lawyer.cpp(16,19): error C2039: 'name': is not a member of 'Employee'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(6): message : see declaration of 'Employee'
+  Main.cpp
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(8,11): error C2061: syntax error: identifier 'string'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(10,17): error C3646: 'name': unknown override specifier
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(10,22): error C2059: syntax error: ')'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(10,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(13,17): error C3646: 'vacationForm': unknown override specifier
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(13,30): error C2059: syntax error: ')'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(13,31): error C2238: unexpected token(s) preceding ';'
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(16,9): error C3646: 'myname': unknown override specifier
+C:\Users\alstn\source\repos\Project1\Project1\Employee.h(16,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\alstn\source\repos\Project1\Project1\Lawyer.h(12,17): error C3668: 'Lawyer::name': method with override specifier 'override' did not override any base class methods
+  Generating Code...
