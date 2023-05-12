@@ -38,6 +38,8 @@ hose
 how
 hub
 hug
+huh
+hush
 owe
 rub
 sew
@@ -50,7 +52,6 @@ swore
 web
 wee
 were
-whore
 whose
 woe
 wore
