@@ -1,15 +1,31 @@
-
+/*
+ *
+ * Minsu Jung
+ * CS 132 Project 2
+ * May 14
+ *
+ * This code defines the behavior and attributes of a bird object in a simple simulation.
+ *
+*/
 #include "Bird.h"
 
-Bird::Bird() {
+
+// Initialize member variables.
+Bird::Bird()
+{
     direction = 0;
     iteration = 0;
     Edirection = CENTER;
 }
-bool Bird::eat() {
+
+// never eats (always returns false)
+bool Bird::eat()
+{
     return false;
 }
-Attack Bird::fight(std::string opponent) {
+// roars if the opponent looks like an Ant ("%"); otherwise pounces
+Attack Bird::fight(std::string opponent)
+{
     if(opponent == "%")
     {
         return ROAR;
@@ -19,10 +35,15 @@ Attack Bird::fight(std::string opponent) {
         return POUNCE;
     }
 }
-std::string Bird::getType() const {
+
+// its name.
+std::string Bird::getType() const
+{
     return "Bird";
 }
-std::string Bird::toString() {
+// indicate the direction that the bird object is moving.
+std::string Bird::toString()
+{
     switch(Edirection)
     {
     case NORTH:
@@ -43,6 +64,8 @@ std::string Bird::toString() {
 
     }
 }
+// A clockwise square: first goes north 3 times, then east 3 times,
+// then south 3 times, then west 3 times, then repeats
 Direction Bird::getMove() {
     int currentDirection = direction/3;
     if(currentDirection == 4)
@@ -73,6 +96,8 @@ Direction Bird::getMove() {
     return Edirection;
 
 }
+
+// always blue.
 std::string Bird::getColor() {
     return "blue";
 }

@@ -1,17 +1,31 @@
-
+/*
+ * Minsu Jung
+ * CS 132 Project 2
+ * May 14
+ *
+ * This code defines a Cat class which represents a cat in a simulation. The cat can have different states and make various moves(Random direction and Random Moveamount)
+ * , defined by the following member functions.
+*/
 #include "Cat.h"
 #include <random>
+
+// Constructor: Initialize the cat with random direction and move amount.
 Cat::Cat() {
     randomDirection = 0;
     randomMoveAmount = 0;
 }
+
+// Attempt to eat; always return true.
 bool Cat::eat() {
     return true;
 }
+
+// Return the cat's type as a string ("Cat").
 std::string Cat::getType() const {
     return "Cat";
 }
 
+// Determine the cat's attack method (pounce, roar, or scratch) based on a random choice when fighting an opponent.
 Attack Cat::fight(std::string opponent) {
     int choice = rand() % 3; // 0 ~ 2
     switch(choice)
@@ -22,11 +36,13 @@ Attack Cat::fight(std::string opponent) {
     case 1:
         return ROAR;
         break;
-    default:
+    default:            // case of 2 will return SCRATCH.
         return SCRATCH;
         break;
     }
 }
+
+// Convert the cat's state into a string representation based on its current state (e.g., asleep, awake, winning, mating, etc.).
 std::string Cat::toString() {
 
     switch(E_State)
@@ -52,6 +68,8 @@ std::string Cat::toString() {
 
     }
 }
+
+// Returns the cat's move direction (north, east, south, west, or center) based on a random direction and move amount.
 Direction Cat::getMove() {
     if(randomMoveAmount == 0)
     {
@@ -79,6 +97,8 @@ Direction Cat::getMove() {
     }
 
 }
+
+// Returns the cat's color according to its current state.
 std::string Cat::getColor() {
     switch(E_State)
     {
@@ -104,27 +124,32 @@ std::string Cat::getColor() {
     }
 }
 
-void Cat::onLose()
-{
+// Change the cat's state to the losing state.
+void Cat::onLose() {
     E_State = LOSE;
 }
-void Cat::onMate()
-{
+
+// Change the cat's state to the mating state.
+void Cat::onMate() {
     E_State = MATE;
 }
-void Cat::onMateEnd()
-{
+
+// Change the cat's state back to default after mating.
+void Cat::onMateEnd() {
     E_State = DEFAULT;
 }
-void Cat::onSleep()
-{
+
+// Change the cat's state to the sleeping state.
+void Cat::onSleep() {
     E_State = SLEEP;
 }
-void Cat::onWakeUp()
-{
+
+// Change the cat's state back to default after waking up.
+void Cat::onWakeUp() {
     E_State = DEFAULT;
 }
-void Cat::onWin()
-{
+
+// Change the cat's state to the winning state.
+void Cat::onWin() {
     E_State = WIN;
 }
