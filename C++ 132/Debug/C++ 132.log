@@ -1,0 +1,15 @@
+﻿  C++ 132.cpp
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(33,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(111,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(99,10): warning C4101: 'cread': unreferenced local variable
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(196,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(213,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(221,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(231,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(263,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(288,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(343,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(381,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(389,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alstn\source\repos\C++ 132\C++ 132\C++ 132.cpp(516): warning C4717: 'waysToClimbHelper': recursive on all control paths, function will cause runtime stack overflow
+  C++ 132.vcxproj -> C:\Users\alstn\source\repos\C++ 132\Debug\C++ 132.exe
