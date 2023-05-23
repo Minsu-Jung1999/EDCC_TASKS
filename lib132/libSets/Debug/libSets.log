@@ -1,2 +1,4 @@
 ﻿  libSets.cpp
+C:\Users\alstn\source\repos\libSets\libSets\libSets.cpp(30,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\alstn\source\repos\libSets\libSets\libSets.cpp(92,20): warning C4018: '<': signed/unsigned mismatch
   libSets.vcxproj -> C:\Users\alstn\source\repos\libSets\Debug\libSets.exe

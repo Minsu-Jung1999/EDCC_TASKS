@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include <cmath>
+#include <fstream>
 using namespace std;
 
 string replaceAll(const std::string& s, char c1, char c2)
@@ -622,6 +623,7 @@ void removeAll(string first, string second)
             if (first[i] == second[j])
             {
                 first.erase(first.begin() + i, first.begin() + i + 1);
+                i--;
             }
         }
     }
@@ -639,12 +641,182 @@ int merge(int n)
     }
     else
     {
-        // 1123
-        int lastdigit = n % 10; // lastdigit = 3
-        int seconddigittolast = (n % 100) / 10; // seconddigittolast = 2
-        return 10 * merge(n / 100) + merge(lastdigit + seconddigittolast);  // return 10 * (11) + merge(3+2)
+        int last = n % 10;
+        int lastsecodn = (n % 100) / 10;
+        return 10 * merge(n / 100) + merge(last + lastsecodn);
     }
 }
+
+//  {18, 7, 4, 24, 11},
+// {7,4,23,11}  i=0
+//{9,9,7,4,23,11}i -> 2
+void Stractch(vector<int>& v)
+{
+    for (int i = 0; i < v.size(); i++)
+    {
+        int data = v[i];
+
+        if (v[i] % 2 == 0)
+        {
+            v.erase(v.begin()+i,v.begin()+i+1);
+            v.insert(v.begin() + i, data / 2);
+            v.insert(v.begin() + i+1, data / 2);
+        }
+        else
+        {
+            v.erase(v.begin() + i, v.begin() + i + 1);
+            v.insert(v.begin() + i, data / 2 +1);
+            v.insert(v.begin() + i + 1, data / 2);
+        }
+        i++;
+    }
+}
+
+bool isvowel(char a)
+{
+    if (a == 'a' || a == 'i' || a == 'e' || a == 'o' || a == 'u')
+        return true;
+    return false;
+}
+
+void VowelStats(string v)
+{
+    ifstream file;
+    file.open(v);
+    int linenum = 0;
+    int longest = 0;
+    int totalchar = 0;
+    string line;
+    while (getline(file,line))
+    {
+        int charnum = 0;
+        int vowelnum = 0;
+        linenum++;
+        for (int i = 0; i < line.length(); i++)
+        {
+            charnum++;
+            totalchar++;
+            if (isalpha(line[i]) && isvowel(line[i]))
+                vowelnum++;
+        }
+        if (longest < charnum)
+            longest = charnum;
+        cout << "Line " << linenum << " has " << charnum << " chars and " << vowelnum << " vowels" << endl;
+    }
+    cout << linenum << " lines; " << "longest = " << longest << ", average = " << (double)totalchar / linenum;
+}
+void letteronlyHelper(string s, int size, int index)
+{
+    if (index > s.size())
+        return;
+    char letter = s[index];
+    if (tolower(letter)-'a' >= (int)'z' - 'a' && (int)'a' - 'a' <= tolower(letter)-'a')
+        cout << s[index];
+    else
+    {
+        letteronlyHelper(s, s.size(), index + 1);
+    }
+}
+void letteronly(string s)
+{
+    letteronlyHelper(s, s.size(), 0);
+}
+void switchPairs(vector<int>& v)
+{
+    for (int i = 1; i < v.size(); i++)
+    {
+        int data = v[i];
+        v.erase(v.begin() + i, v.begin() + i + 1);
+        v.insert(v.begin() + i - 1, data);
+        i++;
+    }
+}
+string addCommas(string a)
+{
+    string s="";
+    int iter=0;
+    for (int i = a.size()-1; i >=0; i--)
+    {
+        iter++;
+        s = a[i] + s;
+        if (iter % 3 == 0)
+        {
+            s = "," + s;
+        }
+    }
+    return s;
+}
+vector<int> intersect(vector<int> v1, vector<int> v2)
+{
+    vector<int> intersect;
+    vector<int> lessvector;
+    vector<int> biggervector;
+    if (v1.size() > v2.size())
+    {
+        lessvector = v2;
+        biggervector = v1;
+    }
+    else if (v1.size() < v2.size())
+    {
+        lessvector = v1;
+        biggervector = v2;
+    }
+    else  // v1 == v2
+    {
+        lessvector = v1;
+        biggervector = v2;
+    }
+    for (int i = 0; i < biggervector.size(); i++)
+    {
+        for (int j = 0; j < lessvector.size(); j++)
+        {
+            if (biggervector[i] == lessvector[j])
+            {
+                intersect.push_back(lessvector[j]);
+            }
+        }
+    }
+    
+    return intersect;
+}
+
+#pragma region Vector
+
+int matchCount(vector<int> v1, vector<int> v2)
+{
+    int match = 0;
+    int size = 0;
+    if (v1.size() > v2.size())
+        size = v2.size();
+    else
+        size = v1.size();
+    match = matchHelper(v1, v2, size-1,0);
+
+    return match;
+}
+
+
+int matchHelper(vector<int> v1, vector<int> v2, int size,int matchCount)
+{
+    if (size < 0)
+        return matchCount;
+    else
+    {
+        if (v1[size] == v2[size])
+            matchCount++;
+        else
+            matchHelper(v1, v2, size--, matchCount);
+    }
+}
+
+void multTable2D(vector<vector<int>>& v1)
+{
+    
+}
+
+
+#pragma endregion
+
 #pragma endregion
 
 

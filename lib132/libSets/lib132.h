@@ -167,6 +167,21 @@ public:
 void vectorMystery(std::vector<int>& v);
 int merge(int n);
 void removeAll(string first, string second);
+void Stractch(vector<int>& v);
 
+void VowelStats(string v);
+void letteronly(string s);
+void switchPairs(vector<int>& v);
+
+string addCommas(string a);
+
+vector<int> intersect(vector<int> v1, vector<int> v2);
+
+#pragma region Vector
+int matchCount(vector<int> v1, vector<int> v2);
+
+void multTable2D(vector<vector<int>>& v1);
+
+#pragma endregion
 
 
