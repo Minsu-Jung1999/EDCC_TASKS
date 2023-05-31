@@ -1,10 +1,8 @@
 /*
  * Project 6
  * Minsu Jung
- *
  * This code implements the LifeGui class, which is responsible for visualizing the LifeModel using a graphical window.
  * It creates a graphical window, initializes necessary variables, and provides functions to update and draw the LifeModel grid in the window.
- *
  * May 26, 2023
 */
 
@@ -44,6 +42,11 @@ LifeGui::LifeGui(LifeModel* modelPointer)
     window->setSize(width, height);
     window->setWindowTitle("LifeGui");
     window->setLineWidth(1);
+
+    // asks the model to update and then redraw every half second
+    window->setTimerListener(500, [this] {
+        this->update();
+    });
 }
 
 // Draws a rectangle with the specified color at the given position and size.
@@ -65,6 +68,7 @@ bool LifeGui::isWindowOpen() const
 // Clears the window, updates the LifeModel, and redraws the rectangles in the window.
 void LifeGui::update() const
 {
+
     lifeModel->update();
     window->clear();
 
@@ -80,8 +84,9 @@ void LifeGui::update() const
         }
         y += cellSize;
         x = 0;
+
     }
 
     window->repaint();
-    usleep(500000);
+    usleep(50000);
 }

@@ -40,6 +40,8 @@ public:
     // Checks if the graphical window is open or not.
     // Returns true if the window is open, false otherwise.
     bool isWindowOpen() const;
+
+    void startUpdate(int delayTime);
 };
 
 #endif // LIFEGUI_H

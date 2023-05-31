@@ -2,7 +2,7 @@
  * Project 6
  * Minsu Jung
  *
- * This code provides functionality to initialize,
+ * This file provides functionality to initialize,
  * update, and retrieve information from the LifeModel object, as well as outputting its grid representation.
  *
  * May 26, 2023
@@ -63,10 +63,7 @@ int LifeModel::countNeighbors(int row, int col) const
 
     for (int i = row - 1; i <= row + 1; i++) {
         for (int j = col - 1; j <= col + 1; j++) {
-            if (i == row && j == col) {
-                continue;
-            }
-            if (i >= 0 && i < rows && j >= 0 && j < cols && grid[i][j] == 'X') {
+            if (i >= 0 && i < rows && j >= 0 && j < cols && !(i == row && j == col) && grid[i][j] == 'X') {
                 count++;
             }
         }
@@ -92,12 +89,7 @@ void LifeModel::update()
                 newGenerationGrid[row][col] = grid[row][col];
             }
             else if (neighbors == 3) {
-                if (grid[row][col] == '-') {
-                    newGenerationGrid[row][col] = 'X';
-                }
-                else {
-                    newGenerationGrid[row][col] = grid[row][col];
-                }
+                newGenerationGrid[row][col] = 'X';
             }
             else {
                 newGenerationGrid[row][col] = '-';
@@ -105,6 +97,7 @@ void LifeModel::update()
         }
     }
 
+    // update the new generations and store it into grid
     grid = std::move(newGenerationGrid);
 }
 

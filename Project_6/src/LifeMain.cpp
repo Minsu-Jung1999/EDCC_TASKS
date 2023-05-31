@@ -2,11 +2,10 @@
  * Project 6
  * Minsu Jung
  *
- * This is a C++ program that simulates the Game of Life, a cellular automaton.
+ * This is a C++ program that simulates the Game of Life.
  * It visualizes the lifecycle of a bacteria colony using a graphical window.
  * The program allows users to animate the colony, advance it by a single tick, or quit the program.
  *
- * NOTION: It will take some times to re-propt the user with the options after you clase the animation window.
  *
  * May 26, 2023
 */
@@ -35,8 +34,8 @@ int main() {
     std::cout << "Grid input file name? ";
     getline(std::cin,fileName);
 
-    // LifeModel model("res/"+fileName);    // If the file is not in the same location, USE THIS.
-    LifeModel model(fileName);
+    LifeModel model("res/" + fileName);    // If the file is not in the same location, USE THIS.
+    // LifeModel model(fileName);          // If the input files exist in the same working directory, USE THIS.
 
     std::cout << model; // Output initial state of the grid
 
@@ -47,11 +46,9 @@ int main() {
         option = tolower(option);
         if (option == 'a') {
             LifeGui gui(&model);
-            while (true) {
-                gui.update();
-                if (!gui.isWindowOpen()) {
-                    break;  // Exit the inner while loop if the window is closed
-                }
+            while(gui.isWindowOpen())
+            {
+                // wait until use closes the GUI window.
             }
         }
         else if (option == 't') {
@@ -65,6 +62,7 @@ int main() {
         else {
             std::cout << "Invalid option. Please try again." << std::endl;
         }
+
     }
 
     return 0;
